@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FILE CONVERTER</title>
+    <script src="./test.js" async></script>
+</head>
+
+<body>
+    <form action="http://localhost:5000/upload" method="post" enctype="multipart/form-data">
+        <p>Choisissez le fichier : </p>
+        <input type="file" name="fichierpnm" accept=".pnm">
+
+        <p id="output"></p>
+
+        <button type="submit">Uploader</button>
+    </form>
+</body>
+<!-- "pkg": "^5.8.1", -->
+
+
+</html>
